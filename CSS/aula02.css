@@ -1,0 +1,23 @@
+p{
+    color:#f00;
+    font-size: 20pt;
+}
+
+#p1{
+    color:#00f;
+}
+
+.txt{
+    color:#0f0;
+    font-size: 30pt;
+}
+
+h4,h5,h6{
+    color:#800;
+    font-size: 15pt;
+    font-weight: lighter;
+}
+
+.titulo{
+    color: #00f;
+}
