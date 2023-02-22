@@ -19,7 +19,7 @@
                 max-width: 600px;
                 margin: 0 auto;
                 border: 1px solid #000;
-                flex-wrap: wrap-reverse;
+                flex-flow: column ;
                 
             }
 
@@ -37,6 +37,16 @@
 
             .quebra{
                 flex-wrap: wrap;
+            }
+
+            .fluxo-horizontal-quebra{
+                flex-flow: column;
+                flex-flow: row wrap;
+                flex-direction: row;
+            }
+
+            .fluxo-horizontal-sem-quebra{
+                flex-flow: row nowrap;
             }
 
             body{

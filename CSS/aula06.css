@@ -1,0 +1,6 @@
+body{
+    background-image: url(https://source.unsplash.com/random), url(https://source.unsplash.com/random);
+    background-repeat: no-repeat, repeat;
+    background-size: 400px, 30px;
+    background-attachment: scroll, fixed;
+   }

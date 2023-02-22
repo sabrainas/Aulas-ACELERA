@@ -19,7 +19,7 @@
                 max-width: 600px;
                 margin: 0 auto;
                 border: 1px solid #000;
-                flex-wrap: wrap-reverse;
+                justify-content: space-around;
                 
             }
 
@@ -39,6 +39,16 @@
                 flex-wrap: wrap;
             }
 
+            .fluxo-horizontal-quebra{
+                flex-flow: column;
+                flex-flow: row wrap;
+                flex-direction: row;
+            }
+
+            .fluxo-horizontal-sem-quebra{
+                flex-flow: row nowrap;
+            }
+
             body{
                 font-family: arial;
                 color: #000;
@@ -51,13 +61,6 @@
             <div class="item itemFlex"> CFB Cursos 1</div>
             <div class="item itemFlex"> CFB Cursos 2</div>
             <div class="item itemFlex"> CFB Cursos 3</div>
-            <div class="item itemFlex"> CFB Cursos 4</div>
-            <div class="item itemFlex"> CFB Cursos 5</div>
-            <div class="item itemFlex"> CFB Cursos 6</div>
-            <div class="item itemFlex"> CFB Cursos 7</div>
-            <div class="item itemFlex"> CFB Cursos 8</div>
-            <div class="item itemFlex"> CFB Cursos 9</div>
-            <div class="item itemFlex"> CFB Cursos 10</div>
         </div>
     </body>
 </html>
