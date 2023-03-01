@@ -1,0 +1,9 @@
+p{
+    width: 300px;
+    border-top: #000 solid 5px;
+    border-bottom: #000 solid 5px;
+    border-left: #229b04 double 5px;
+    border-right: #229b04 dotted 5px;
+
+    border-top-width: 10px;
+}
