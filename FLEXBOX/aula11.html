@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>aula 11 - flexbox</title>
+        <style>
+            .item{
+                margin: 5px;
+                padding: 5px;
+                background: #447;
+                text-align: center;
+                font-size: 1em;
+                color: #fff;
+                height: 30px;
+                width: 200px;
+            }
+
+            .container{
+                max-width: 600px;
+                height: 400px;
+                margin: 0 auto;
+                border: 1px solid #000;
+                justify-content: center; /*eixo principal*/
+                align-items: center; /*eixo secundario*/
+                /*align-content: center; /*eixo secundario */
+            }
+
+            .flexivel{
+                display: flex;
+            }
+
+            .horizontal{
+                flex-direction: row;
+            }
+
+            .vertical{
+                flex-direction: column;
+            }
+
+            .quebra{
+                flex-wrap: wrap;
+            }
+
+            .tam0{
+                flex-grow: 0;
+            }
+            .tam1{
+                flex-grow: 1;
+            }
+            .tam2{
+                flex-grow: 2;
+            }
+
+            .basea{
+                flex-basis: auto;
+            }
+
+            .base0{
+                flex-basis: 0;
+            }
+
+            .base1{
+                flex-basis: 1;
+            }
+
+            .base2{
+                flex-basis: 2;
+            }
+
+            .ordem0{
+                order: 0;
+            }
+
+            .ordem1{
+                order: 1;
+            }
+
+            .ordem2{
+                order: 2;
+            }
+
+            .ordem3{
+                order: 3;
+            }
+
+            .fluxo-horizontal-quebra{
+                flex-flow: column;
+                flex-flow: row wrap;
+                flex-direction: row;
+            }
+
+            .fluxo-horizontal-sem-quebra{
+                flex-flow: row nowrap;
+            }
+
+            .reduzir0{
+                flex-shrink: 0;
+            }
+            
+            .reduzir1{
+                flex-shrink: 1;
+            }
+
+            .reduzir2{
+                flex-shrink: 2;
+            }
+
+            .reduzir3{
+                flex-shrink: 3;
+            }
+            
+            body{
+                font-family: arial;
+                color: #000;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container flexivel horizontal ">
+            <div class="item itemFlex tam1 reduzir1"> CFB Cursos 1</div>
+            <div class="item itemFlex tam1 reduzir2"> CFB Cursos 2</div>
+            <div class="item itemFlex tam1 reduzir3"> CFB Cursos 3</div>
+            <div class="item itemFlex tam1 reduzir0"> CFB Cursos 4</div>
+        </div>
+    </body>
+</html>
