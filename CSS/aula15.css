@@ -1,0 +1,17 @@
+#div1{
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+
+    background: repeating-linear-gradient(to right, #f00 0%, #ff0 20%);
+    /* background: radial-gradient(circle, #f00, #ff0); */
+    /* background: linear-gradient(45deg, #f00 0%, #ff0 75%,  #000 100%); */
+    /* background: linear-gradient(to left, #f00, #ff0,#000); */
+    /* background: linear-gradient(45deg, #f00, #ff0, #00f, #000); */
+}
+h1{
+    font-size: 100pt;
+    background: linear-gradient(90deg, #f00, #ff0);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
