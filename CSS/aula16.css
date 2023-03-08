@@ -1,0 +1,14 @@
+h1{
+    width: 300px;
+    height: 300px;
+    font-size: 50pt;
+    color: red;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0), -5px -5px 5px blue, -5px 5px 5px green;
+    /* -webkit-text-fill-color: transparent; */
+}
+div{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    box-shadow: 10px 10px 10px black;
+}
